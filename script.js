@@ -63,6 +63,7 @@ function renderQuestions() {
 
       // If previously selected
       if (userAnswers[i] === choice) {
+		  input.setAttribute("checked","true");
         input.checked = true;
       }
 
